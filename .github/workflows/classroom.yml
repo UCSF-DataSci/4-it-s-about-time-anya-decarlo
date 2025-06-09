@@ -28,7 +28,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pytest numpy pandas scipy statsmodels scikit-learn matplotlib seaborn pywt nbformat
+        pip install pytest numpy pandas scipy statsmodels scikit-learn matplotlib seaborn PyWavelets nbformat
 
     - name: Setup Jupyter Kernel
       run: |
